@@ -1,0 +1,30 @@
+/* Varibales */
+.menu-platillo {
+  height: 200px;
+}
+.menu-platillo .platillo-precios {
+  display: flex;
+}
+.menu-platillo .platillo-precios div {
+  text-align: center;
+  color: #F2860B;
+  font-family: "yellowtail";
+  padding: 15px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 10px;
+  font-size: 25px;
+  border-left: solid 1px #332B2B;
+}
+.menu-platillo .platillo-precios div p {
+  color: #332B2B;
+  opacity: 0.3;
+}
+
+.menu-platillo:hover .platillo-precios div {
+  color: whitesmoke;
+}
+.menu-platillo:hover .platillo-precios p {
+  opacity: 1;
+  text-shadow: 2px 1px whitesmoke;
+}

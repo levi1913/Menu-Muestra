@@ -1,0 +1,43 @@
+
+/* Varibales */
+$color-header : #3848d6;
+$color-body : #B9CAEC;
+$letra-naranja: #F2860B;
+$menu-principal: #332B2B;
+$letra: 'yellowtail';
+
+
+.menu-platillo{
+    height: 200px;
+    .platillo-precios{
+        display: flex;
+        div{
+                text-align: center;
+                color: $letra-naranja;
+                font-family: $letra;
+                padding: 15px;
+                padding-left: 10px;
+                padding-right:15px;
+                padding-top: 10px;
+                font-size: 25px;
+                border-left: solid 1px $menu-principal;
+                p{
+                    color:$menu-principal;
+                    opacity: .3;
+                }
+        }
+    }
+    
+}
+.menu-platillo:hover{
+    .platillo-precios{
+        div{
+            color: whitesmoke;
+        }
+        p{
+            opacity: 1;
+            text-shadow: 2px 1px whitesmoke;
+        }
+    }
+   
+}
