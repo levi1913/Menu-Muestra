@@ -28,3 +28,9 @@
   opacity: 1;
   text-shadow: 2px 1px whitesmoke;
 }
+
+@media (max-width: 500px) {
+  .menu-platillo .platillo-precios div span {
+    line-height: 60px;
+  }
+}

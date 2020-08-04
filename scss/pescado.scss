@@ -41,3 +41,17 @@ $letra: 'yellowtail';
     }
    
 }
+
+@media(max-width:500px){
+    .menu-platillo{
+        .platillo-precios{
+           div{
+               span{
+                line-height: 60px;
+               }
+               
+           }
+        }
+       
+    }
+}
