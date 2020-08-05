@@ -289,6 +289,15 @@ footer{
                 font-size: 20px;
             }
         }
+        .info-platillo{
+            .descripcion{
+                top:20%;
+                height: 80%;
+            }
+        }
+        .precio{
+            top:20% !important;
+        }
     }
     .imagen{
         height: 5px;
@@ -300,4 +309,5 @@ footer{
             
         }
     }
+
 }

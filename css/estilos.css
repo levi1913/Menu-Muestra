@@ -277,6 +277,13 @@ footer .derechos {
   .tarjeta .negro h4 {
     font-size: 20px;
   }
+  .tarjeta .info-platillo .descripcion {
+    top: 20%;
+    height: 80%;
+  }
+  .tarjeta .precio {
+    top: 20% !important;
+  }
 
   .imagen {
     height: 5px;
