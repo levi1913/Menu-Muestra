@@ -286,7 +286,7 @@ footer{
         transform: scale(0.2) rotate(16deg);
     }
     header::after{
-        right:23px;
+        right:30px !important;
         transform: scale(0.14) rotate(-20deg) rotateY(180deg);
     }
     .tarjeta{
