@@ -260,9 +260,9 @@ footer .derechos {
     transform: scale(0.15) rotate(16deg);
   }
   header .titulo::after {
-    top: 25px;
+    top: 20px;
     right: 80px;
-    transform: scale(0.13) rotate(-30deg) rotateY(180deg);
+    transform: scale(0.13) rotate(-35deg) rotateY(180deg);
   }
 
   header::before {
@@ -278,11 +278,11 @@ footer .derechos {
     font-size: 20px;
   }
   .tarjeta .info-platillo .descripcion {
-    top: 20%;
-    height: 80%;
+    top: 15%;
+    height: 85%;
   }
   .tarjeta .precio {
-    top: 20% !important;
+    top: 15% !important;
   }
 
   .imagen {
