@@ -72,7 +72,10 @@ $letra:'Yellowtail', cursive;
     }
     .platillo-precio{
         div{
-            padding-top:15px;
+            span{
+                line-height: 100px;
+            }
+          
         }
     }
 }

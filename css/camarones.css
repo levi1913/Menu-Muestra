@@ -62,7 +62,7 @@
     height: auto !important;
   }
 
-  .platillo-precio div {
-    padding-top: 15px;
+  .platillo-precio div span {
+    line-height: 100px;
   }
 }
