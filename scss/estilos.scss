@@ -10,6 +10,9 @@ $menu-principal: #332B2B;
     padding: 0;
     
 }
+body{
+    overflow-x: hidden;
+}
 /* Index */
 header{
     width: 100%;
@@ -280,8 +283,8 @@ footer{
         transform: scale(0.2) rotate(16deg);
     }
     header::after{
-        right:25px;
-        transform: scale(0.15) rotate(-20deg) rotateY(180deg);
+        right:23px;
+        transform: scale(0.14) rotate(-20deg) rotateY(180deg);
     }
     .tarjeta{
         .negro{
