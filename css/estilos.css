@@ -256,7 +256,7 @@ footer .derechos {
     font-size: 50px !important;
   }
   header .titulo::before {
-    left: 85px;
+    left: 80px;
     transform: scale(0.15) rotate(16deg);
   }
   header .titulo::after {
