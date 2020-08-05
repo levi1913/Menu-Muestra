@@ -14,7 +14,8 @@
 }
 .menu-camaron ul .menu-platillo {
   width: 100%;
-  height: 143px;
+  min-height: 143px;
+  height: auto;
   background: whitesmoke;
   border: solid 1px #332B2B;
   margin-bottom: 10px;
