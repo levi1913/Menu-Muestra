@@ -261,8 +261,8 @@ footer .derechos {
   }
   header .titulo::after {
     top: 25px;
-    right: 70px;
-    transform: scale(0.13) rotate(-10deg) rotateY(180deg);
+    right: 80px;
+    transform: scale(0.13) rotate(-30deg) rotateY(180deg);
   }
 
   header::before {
