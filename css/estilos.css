@@ -272,4 +272,18 @@ footer .derechos {
   header::after {
     transform: scale(0.15) rotate(-20deg) rotateY(180deg);
   }
+
+  .tarjeta .negro h4 {
+    font-size: 25px;
+  }
+
+  .imagen {
+    height: 5px;
+    width: 5px;
+    left: 15px !important;
+  }
+  .imagen .imagen-tarjeta {
+    height: 70px !important;
+    width: 70px !important;
+  }
 }
