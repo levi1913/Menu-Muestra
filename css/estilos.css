@@ -254,3 +254,10 @@ footer .derechos {
   color: rgba(245, 245, 245, 0.5);
   padding: 2px;
 }
+
+/* Mediaquery */
+@media (max-width: 500px) {
+  header .titulo h1 {
+    font-size: 50px !important;
+  }
+}
