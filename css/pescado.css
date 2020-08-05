@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 /* Varibales */
 .menu-platillo {
   height: 200px;
@@ -8,7 +9,7 @@
 .menu-platillo .platillo-precios div {
   text-align: center;
   color: #F2860B;
-  font-family: "yellowtail";
+  font-family: "Yellowtail", cursive;
   padding: 15px;
   padding-left: 10px;
   padding-right: 15px;

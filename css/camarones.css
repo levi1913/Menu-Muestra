@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 /* Varibales */
 .col-lg-6 {
   margin: 0;
@@ -29,13 +30,13 @@
 .menu-camaron ul .menu-platillo .platillo-info h4 {
   text-transform: uppercase;
   color: #F2860B;
-  font-family: "yellowtail";
+  font-family: "Yellowtail", cursive;
   transition: all 0.5s;
 }
 .menu-camaron ul .menu-platillo .platillo-precio {
   text-align: center;
   color: #F2860B;
-  font-family: "yellowtail";
+  font-family: "Yellowtail", cursive;
   padding: 35px;
   padding-top: 40px;
   font-size: 40px;

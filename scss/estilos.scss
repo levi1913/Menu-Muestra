@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 /* Varibales */
 $color-header : #3848d6;
 $color-body : #B9CAEC;
@@ -22,7 +22,7 @@ header{
         text-align: center;
         padding-top: 10px;
         color: $letra-naranja;
-        font-family: 'Yellowtail';
+        font-family:'Yellowtail', cursive;
         font-size: 65px;
         letter-spacing: 8px;
     }
@@ -82,7 +82,7 @@ header::after{
 .navbar-color{
     background: $menu-principal;
     color: $letra-naranja !important;
-    font-family: 'Yellowtail';
+    font-family:'Yellowtail', cursive;
     a{
         color: $letra-naranja !important;
         font-size: 25px;
@@ -106,7 +106,7 @@ header::after{
 }
 /* -------------------Cuerpo----------------------*/
 .encabezado{
-    font-family: 'Yellowtail';
+    font-family:'Yellowtail', cursive;
     text-align: center;
     text-decoration: underline;
     margin-top: 20px;
@@ -138,7 +138,7 @@ header::after{
         h4{
             color: $letra-naranja;
             text-align: right;
-            font-family: 'yellowtail';
+            font-family:'Yellowtail', cursive;
             padding-top: 15px;
             padding-right: 35px;
             font-size: 27px;
@@ -176,7 +176,7 @@ header::after{
             border-right: solid 1px $menu-principal;
             width: 75%;
             height: 75%;
-            font-family: 'yellowtail';
+            font-family:'Yellowtail', cursive;
             font-size: 20px;
             text-align: justify;
             padding: 15px;
@@ -194,7 +194,7 @@ header::after{
             height: 75%;
            
             .letrero{
-                font-family: 'yellowtail';
+                font-family:'Yellowtail', cursive;
                 color: $letra-naranja;
                 text-align: center;
                 padding: 2px;
@@ -203,7 +203,7 @@ header::after{
                 padding-bottom: 2px;
             }
             .monto{
-                font-family: 'yellowtail';
+                font-family:'Yellowtail', cursive;
                 text-align: center;
                 font-size: 35px;
                 padding-top: 35%;
