@@ -261,7 +261,7 @@ footer .derechos {
   }
   header .titulo::after {
     top: 25px;
-    right: 90px;
+    right: 70px;
     transform: scale(0.13) rotate(-10deg) rotateY(180deg);
   }
 
@@ -270,6 +270,7 @@ footer .derechos {
   }
 
   header::after {
+    right: 25px;
     transform: scale(0.15) rotate(-20deg) rotateY(180deg);
   }
 

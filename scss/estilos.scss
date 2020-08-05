@@ -272,7 +272,7 @@ footer{
         }
         .titulo::after{
             top:25px;
-            right:90px;
+            right:70px;
             transform: scale(0.13) rotate(-10deg) rotateY(180deg);
         }
     }
@@ -280,6 +280,7 @@ footer{
         transform: scale(0.2) rotate(16deg);
     }
     header::after{
+        right:25px;
         transform: scale(0.15) rotate(-20deg) rotateY(180deg);
     }
     .tarjeta{
