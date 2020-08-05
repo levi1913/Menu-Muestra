@@ -61,4 +61,8 @@
   .menu-camaron .menu-platillo {
     height: auto !important;
   }
+
+  .platillo-precio div {
+    padding-top: 15px;
+  }
 }
