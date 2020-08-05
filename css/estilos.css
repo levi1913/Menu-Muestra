@@ -109,11 +109,6 @@ header::after {
   letter-spacing: 2px;
 }
 
-.encabezado:hover {
-  color: #F2860B;
-  text-shadow: 5px 1px #332B2B;
-}
-
 /* ------------------tarjeta-----------------------*/
 .tarjeta {
   width: 100%;
@@ -259,5 +254,22 @@ footer .derechos {
 @media (max-width: 500px) {
   header .titulo h1 {
     font-size: 50px !important;
+  }
+  header .titulo::before {
+    left: 85px;
+    transform: scale(0.15) rotate(16deg);
+  }
+  header .titulo::after {
+    top: 25px;
+    right: 90px;
+    transform: scale(0.13) rotate(-10deg) rotateY(180deg);
+  }
+
+  header::before {
+    transform: scale(0.2) rotate(16deg);
+  }
+
+  header::after {
+    transform: scale(0.15) rotate(-20deg) rotateY(180deg);
   }
 }

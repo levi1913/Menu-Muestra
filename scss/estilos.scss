@@ -113,10 +113,6 @@ header::after{
     text-shadow:  1px 1px $letra-naranja;
     letter-spacing: 2px;
 }
-.encabezado:hover{
-    color:$letra-naranja;
-    text-shadow:  5px 1px $menu-principal;
-}
 /* ------------------tarjeta-----------------------*/
 .tarjeta{
     width: 100%;
@@ -270,5 +266,20 @@ footer{
                 font-size: 50px !important;
             }
         }
+        .titulo::before{
+            left:85px;
+            transform: scale(0.15) rotate(16deg);
+        }
+        .titulo::after{
+            top:25px;
+            right:90px;
+            transform: scale(0.13) rotate(-10deg) rotateY(180deg);
+        }
+    }
+    header::before{
+        transform: scale(0.2) rotate(16deg);
+    }
+    header::after{
+        transform: scale(0.15) rotate(-20deg) rotateY(180deg);
     }
 }
