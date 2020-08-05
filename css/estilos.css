@@ -256,6 +256,10 @@ footer .derechos {
 
 /* Mediaquery */
 @media (max-width: 500px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
   header .titulo h1 {
     font-size: 50px !important;
   }

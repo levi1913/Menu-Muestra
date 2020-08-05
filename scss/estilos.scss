@@ -263,6 +263,9 @@ footer{
 }
 /* Mediaquery */
 @media(max-width:500px){
+    body{
+        overflow-x: hidden !important;
+    }
     header{
         .titulo{
             h1{
